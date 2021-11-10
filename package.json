@@ -1,0 +1,24 @@
+{
+  "name": "responsive-css-grid",
+  "version": "1.0.0",
+  "description": "Fully responsive grid with no media queries",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/serve src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipekm/responsive-css-grid.git"
+  },
+  "keywords": [],
+  "author": "Felipe Kautzmann <felipe.kautzmann@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipekm/responsive-css-grid/issues"
+  },
+  "homepage": "https://github.com/felipekm/responsive-css-grid#readme",
+  "dependencies": {
+    "serve": "^13.0.2"
+  }
+}

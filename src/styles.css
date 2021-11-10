@@ -1,0 +1,29 @@
+/* Fully responsive grid with no media queries. */
+
+.responsive-css-grid {
+  --responsive-css-grid-min-size: 16rem;
+  
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--responsive-css-grid-min-size), 1fr));
+  grid-gap: 1rem;
+}
+
+
+body {
+  padding: 1rem;
+  background: #2d2d2d;
+  line-height: 1;
+}
+
+li {
+  list-style: none;
+  color: #ffffff;
+  padding: 1rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* Make images responsive */
+img {
+  max-width: 100%;
+}
